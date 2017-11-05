@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Route, Switch } from 'react-router-dom'
-import ContextProvider from '../ContextProvider'
+import ContextProvider from './ContextProvider'
 
 import Home from './home'
 const Root = ({ Router, location, context }) => (
