@@ -11,7 +11,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
-import Root from './app/Root'
+import Root from './Root'
 
 injectTapEventPlugin()
 export default function serverRenderer ({ clientStats, serverStats }) {
